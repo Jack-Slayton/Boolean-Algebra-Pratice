@@ -2,6 +2,7 @@ import random
 
 output = str(random.randint(0,1)) + str(random.randint(0,1)) + str(random.randint(0,1)) + str(random.randint(0,1))
 listvar = ["0001","0111","1110","1000","1001","0110", "1101","1011"]
+
 if output == "0001":
     ans = "AND"
 
@@ -35,4 +36,4 @@ response = input("What is the answer? ")
 if response is ans:
     print("Correct!")
 else:
-    print("Incorrect, answer was " + output)
+    print("Incorrect, answer was " + ans)
